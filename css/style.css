@@ -1,0 +1,160 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+section{
+    padding: 50px 100px;
+    height: 100%;
+}
+
+#hero img {
+    margin-top: 20px;
+}
+
+#about h2 {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    /* border-bottom: 3px solid black; */
+    border-radius: 2px;
+}
+
+#about p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#about img {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 25%;
+}
+
+h3 {
+    margin: auto;
+    font-size: 30px;
+    display: inline-block;  
+    border-radius: 2px;
+    border-bottom: 3px solid black;  
+}
+
+#other-blogs{
+    margin: 20px 0;
+}
+
+#other_blogs_title{
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.category-title{
+    /* font-weight: 600; */
+    font-style: italic;
+}
+
+.filters {
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filters ul li {
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+.filters ul li {
+    float: left;
+    border: 1.5px solid rgb(32, 43, 78);
+    border-radius: 12px;
+}
+
+.filters ul li a {
+    padding: 10px 40px;
+}
+
+.blog-cards{
+    margin: 40px 0;
+}
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+}
+
+.blog-content h2{
+    text-align: center;
+    font-size: 32px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: bold;
+}
+
+.blog-content h5 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(139, 139, 139);
+}
+
+.blog-content div p{
+    text-align: justify;
+    margin: 30px 0;
+}
+
+.blog-content div img{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.blog-content div p:nth-child(7){
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer{
+   border-top: 2px solid black;
+}
+
+@media screen and (max-width: 361px) {
+    section{
+        padding: 20px;
+    }
+
+    #about h2 {
+        margin-top: 70px;
+    }
+
+    #about img {
+        margin: auto;
+        margin-top: 50px;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section{
+        padding: 30px;
+    }
+}
