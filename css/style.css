@@ -71,29 +71,6 @@ h3 {
     font-style: italic;
 }
 
-.filters {
-    margin-top: 50px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.filters ul li {
-    padding: 10px 0;
-    margin: 0 10px;
-}
-
-.filters ul li {
-    float: left;
-    border: 1.5px solid rgb(32, 43, 78);
-    border-radius: 12px;
-}
-
-.filters ul li a {
-    padding: 10px 40px;
-}
-
 .blog-cards{
     margin: 40px 0;
 }
@@ -151,10 +128,20 @@ footer{
         margin-top: 50px;
         max-width: 50%;
     }
+
+    .blog-content{
+        width: 95%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
     section{
         padding: 30px;
+    }
+
+    .blog-content{
+        width: 90%;
+        margin: auto;
     }
 }
