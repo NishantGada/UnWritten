@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,9 @@
 
 <body>
 
-    <header id="header"><h1><strong> - UnWritten - </strong></h1></header>
+    <header id="header">
+        <h1><strong> - UnWritten - </strong></h1>
+    </header>
 
     <nav>
         <div class="toggle">
@@ -27,11 +29,27 @@
         </ul>
     </nav>
 
-    <div class="back-to-top">
-        <a href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-    </div>
+    <section id="about">
+        <h2>About me</h2>
 
-    <section class="text-gray-700 body-font" id="contact">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda
+            quasi tempore consequuntur. Animi at provident voluptatum praesentium inventore,
+            nobis delectus, nemo commodi laudantium, dolores quaerat magnam eos. Maxime optio
+            cum nulla asperiores ea harum nemo quis error iure culpa, facere quaerat amet
+            expedita. Delectus iure corporis fugit voluptates vel?
+        </p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda
+            quasi tempore consequuntur. Animi at provident voluptatum praesentium inventore,
+            nobis delectus, nemo commodi laudantium, dolores quaerat magnam eos. Maxime optio
+            cum nulla asperiores ea harum nemo quis error iure culpa, facere quaerat amet
+            expedita. Delectus iure corporis fugit voluptates vel?
+        </p>
+
+        <img src="./img/self_image_2.jpeg" alt="">
+    </section>
+
+    <!-- <section class="text-gray-700 body-font" id="contact">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Reach out to me!</h1>
@@ -47,33 +65,52 @@
                 </div>
                 <div class="relative sm:mr-4 mb-4 sm:mb-0 flex-grow w-full">
                     <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-                    <input type="email" id="email" name="email"
+                    <input type="email" id="email" name="email" autocomplete="off"
                         class="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
                 <button
                     class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="about">
-        <h2>About me</h2>
-    
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda
-          quasi tempore consequuntur. Animi at provident voluptatum praesentium inventore,
-          nobis delectus, nemo commodi laudantium, dolores quaerat magnam eos. Maxime optio
-          cum nulla asperiores ea harum nemo quis error iure culpa, facere quaerat amet
-          expedita. Delectus iure corporis fugit voluptates vel?
-        </p>
-    
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda
-          quasi tempore consequuntur. Animi at provident voluptatum praesentium inventore,
-          nobis delectus, nemo commodi laudantium, dolores quaerat magnam eos. Maxime optio
-          cum nulla asperiores ea harum nemo quis error iure culpa, facere quaerat amet
-          expedita. Delectus iure corporis fugit voluptates vel?
-        </p>
-    
-        <img src="./img/self_image_2.jpeg" alt="">
+    <section class="text-gray-600 body-font relative" id="contact">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"><strong>Reach out to me </strong></h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Slide into my DMs here. </p>
+            </div>
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="flex flex-wrap -m-2">
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                            <input type="text" id="name" name="name" autocomplete="off"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                            <input type="email" id="email" name="email" autocomplete="off"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <div class="relative">
+                            <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                            <textarea id="message" name="message"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <button
+                            class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="thankyou">
@@ -134,6 +171,10 @@
         </footer>
     </section>
 
+    <div class="back-to-top">
+        <a href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script>
@@ -144,4 +185,5 @@
         })
     </script>
 </body>
+
 </html>
